@@ -1,0 +1,7 @@
+handling
+    local vars
+    sprintf to get_playlist_filenames
+    commands list
+        play (command==play, playlistname, playlisttype)
+            curling playlist_filenames
+            mpv or SDL by playlist type
