@@ -195,6 +195,31 @@ void clear_playlist(const char *playlist_name) {
     remove_directory(playlist_dir);
 }
 
+void save_current_playlist(const char *playlist_name, const char *type) {
+    FILE *file = fopen("current_playlist.txt", "w");
+    if (file) {
+        fprintf(file, "%s\n%s\n", playlist_name, type);
+        fclose(file);
+    } else {
+        printf("Error opening current_playlist.txt for writing.\n");
+    }
+}
+
+int load_current_playlist(char *playlist_name, char *type) {
+    FILE *file = fopen("current_playlist.txt", "r");
+    if (file) {
+        if (fgets(playlist_name, BUF_SIZE, file) != NULL && fgets(type, BUF_SIZE, file) != NULL) {
+            // Remove newline characters from playlist_name and type
+            playlist_name[strcspn(playlist_name, "\n")] = 0;
+            type[strcspn(type, "\n")] = 0;
+            fclose(file);
+            return 1;  // Success
+        }
+        fclose(file);
+    }
+    return 0;  // No playlist to load
+}
+
 void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], pid_t *pid) {
     char url[BUF_SIZE], file_path[BUF_SIZE], filename[BUF_SIZE];
     char cwd[BUF_SIZE], playlist_dir[BUF_SIZE], file_url[BUF_SIZE];
@@ -271,6 +296,8 @@ void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], p
                 execl("/bin/bash", "bash", "-c", mpv_command, NULL);
                 exit(0);
             }
+
+            save_current_playlist(cmd_data->playlist, cmd_data->type);
         }
     }
     // Stop the current process
@@ -341,28 +368,47 @@ void handle_command(char *message, char server_hostname[BUF_SIZE], pid_t *pid) {
 }
 
 
-int main(int argc, char **args)
-{
+int main(int argc, char **args) {
     char server_hostname[BUF_SIZE];
     pid_t child_pid = 0;
+    char last_playlist[BUF_SIZE] = {0};
+    char last_type[BUF_SIZE] = {0};
 
-    sprintf(server_hostname, args[1], sizeof(server_hostname));
-    if(DEBUG_PRINT){printf("Python Server hostname is:%s;\n", server_hostname);}
+    snprintf(server_hostname, sizeof(server_hostname), "%s", args[1]);
+    if (DEBUG_PRINT) {
+        printf("Python Server hostname is: %s;\n", server_hostname);
+    }
 
     struct server *ms = init_server();
-    char buff[BUF_SIZE];
 
-    while(1) { // Бесконечный цикл для принятия соединений
-        if((ms->client_desc = accept(ms->server_socket, NULL, NULL)) != -1){
+    // Check if there's a previously played playlist
+    if (load_current_playlist(last_playlist, last_type)) {
+        printf("Found previous playlist: %s of type: %s. Resuming playback...\n", last_playlist, last_type);
+
+        // Prepare the command struct and execute the 'play' command to restart the last playlist
+        struct command last_cmd = {0};
+        snprintf(last_cmd.cmd, sizeof(last_cmd.cmd), "play");
+        snprintf(last_cmd.playlist, sizeof(last_cmd.playlist), "%s", last_playlist);
+        snprintf(last_cmd.type, sizeof(last_cmd.type), "%s", last_type);
+
+        execute_command(&last_cmd, server_hostname, &child_pid);
+    } else {
+        printf("No previous playlist found.\n");
+    }
+
+    char buff[BUF_SIZE];
+    while (1) { // Infinite loop for accepting connections
+        if ((ms->client_desc = accept(ms->server_socket, NULL, NULL)) != -1) {
             printf("Accepted!\n");
 
-			read(ms->client_desc, buff, sizeof(buff)-1);
-			printf("%s\n", buff);
+            read(ms->client_desc, buff, sizeof(buff) - 1);
+            printf("%s\n", buff);
 
-			handle_command(buff, server_hostname, &child_pid);
+            handle_command(buff, server_hostname, &child_pid);
             fflush(stdout);
             close(ms->client_desc);
             printf("Connection closed\n");
         }
     }
 }
+
