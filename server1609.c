@@ -198,7 +198,7 @@ void clear_playlist(const char *playlist_name) {
 void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], pid_t *pid) {
     char url[BUF_SIZE], file_path[BUF_SIZE], filename[BUF_SIZE];
     char cwd[BUF_SIZE], playlist_dir[BUF_SIZE], file_url[BUF_SIZE];
-    char download_command[BUF_SIZE], mpv_command[BUF_SIZE];
+    char download_command[BUF_SIZE], mpv_command[BUF_SIZE], feh_command[BUF_SIZE];
     FILE *fp;
     
     // Handle the 'play' command
@@ -243,7 +243,7 @@ void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], p
                     printf("\nDownloading file to path: %s\n", file_path);
 
                     // Формирование команды для загрузки файла
-                    sprintf(download_command, "curl -o '%s' '%s'", file_path, file_url);
+                    sprintf(download_command, "curl -o '%s' -O '%s'", file_path, file_url);
                     printf("\nExecuting download command: %s\n", download_command);
 
                     // Выполнение команды
@@ -258,9 +258,11 @@ void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], p
             // Depending on the playlist type, we handle video or pictures
             if (strcmp(cmd_data->type, "video") == 0) {
                 snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
-            } else if (strcmp(cmd_data->type, "pictures") == 0) {
-                // Placeholder for handling pictures (could be something like feh for a slideshow)
-                printf("Handle pictures playlist here.\n");
+            } else if (strcmp(cmd_data->type, "image") == 0) {
+                printf("PLAYLIST DIR BEFORE FEHING:%s;\n", playlist_dir);
+                snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 4 '%s'", playlist_dir);
+		        // Placeholder for handling pictures (could be something like feh for a slideshow)
+                printf("Handle pictures playlist here. one\n");
             }
 
             // Fork and execute the player
@@ -302,7 +304,8 @@ void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], p
 
         if (strcmp(cmd_data->type, "video") == 0) {
             snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
-        } else if (strcmp(cmd_data->type, "pictures") == 0) {
+        } else if (strcmp(cmd_data->type, "image") == 0) {
+	        snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 1.5 --cycle-once '%s'", playlist_dir);
             printf("Handle pictures playlist here.\n");
         }
 
