@@ -220,7 +220,7 @@ int load_current_playlist(char *playlist_name, char *type) {
     return 0;  // No playlist to load
 }
 
-void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], pid_t *pid) {
+void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], pid_t *pid, char output[BUF_SIZE]) {
     char url[BUF_SIZE], file_path[BUF_SIZE], filename[BUF_SIZE];
     char cwd[BUF_SIZE], playlist_dir[BUF_SIZE], file_url[BUF_SIZE];
     char download_command[BUF_SIZE], mpv_command[BUF_SIZE], feh_command[BUF_SIZE];
@@ -358,13 +358,19 @@ void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], p
             printf("No playlist name provided for clear_playlist command.\n");
         }
     }
+    else if (strcmp(cmd_data->cmd, "rotate") == 0) {
+        char rotate_command[BUF_SIZE];
+        snprintf(rotate_command, sizeof(rotate_command), "xrandr --output %s --rotate %s", output, cmd_data->playlist);
+        
+        system(rotate_command);
+    }
 }
 
 
-void handle_command(char *message, char server_hostname[BUF_SIZE], pid_t *pid) {
+void handle_command(char *message, char server_hostname[BUF_SIZE], pid_t *pid, char output[BUF_SIZE]) {
     struct command cmd_data = {0};
     parse_command(message, &cmd_data);
-    execute_command(&cmd_data, server_hostname, pid);
+    execute_command(&cmd_data, server_hostname, pid, output);
 }
 
 
@@ -373,12 +379,17 @@ int main(int argc, char **args) {
     pid_t child_pid = 0;
     char last_playlist[BUF_SIZE] = {0};
     char last_type[BUF_SIZE] = {0};
+    char output[BUF_SIZE] = {0};
 
     snprintf(server_hostname, sizeof(server_hostname), "%s", args[1]);
     if (DEBUG_PRINT) {
         printf("Python Server hostname is: %s;\n", server_hostname);
     }
 
+    snprintf(output, sizeof(output), "%s", args[2]);
+    if (DEBUG_PRINT) {
+        printf("Output name: %s;\n", output);
+    }
     struct server *ms = init_server();
 
     // Check if there's a previously played playlist
@@ -391,7 +402,7 @@ int main(int argc, char **args) {
         snprintf(last_cmd.playlist, sizeof(last_cmd.playlist), "%s", last_playlist);
         snprintf(last_cmd.type, sizeof(last_cmd.type), "%s", last_type);
 
-        execute_command(&last_cmd, server_hostname, &child_pid);
+        execute_command(&last_cmd, server_hostname, &child_pid, output);
     } else {
         printf("No previous playlist found.\n");
     }
@@ -400,11 +411,11 @@ int main(int argc, char **args) {
     while (1) { // Infinite loop for accepting connections
         if ((ms->client_desc = accept(ms->server_socket, NULL, NULL)) != -1) {
             printf("Accepted!\n");
-
+            memset(buff,0, sizeof(buff));
             read(ms->client_desc, buff, sizeof(buff) - 1);
             printf("%s\n", buff);
 
-            handle_command(buff, server_hostname, &child_pid);
+            handle_command(buff, server_hostname, &child_pid, output);
             fflush(stdout);
             close(ms->client_desc);
             printf("Connection closed\n");
