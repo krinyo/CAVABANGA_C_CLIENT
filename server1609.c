@@ -60,6 +60,9 @@ struct server *init_server()
     return main_server;
 }
 
+
+
+
 // Function to download a single file using curl
 size_t download_file(void *ptr, size_t size, size_t nmemb, FILE *stream) {
   return fwrite(ptr, size, nmemb, stream);
@@ -119,6 +122,93 @@ char* get_substring(const char* str, int substring_number, const char* delimiter
     }
     return NULL;
 }
+
+
+void sync_playlist_directory(const char *playlist_dir, const char *playlist_file_url, const char *server_hostname) {
+    char file_url[BUF_SIZE], filename[BUF_SIZE], file_path[BUF_SIZE];
+    FILE *playlist_filenames;
+    size_t len;
+    // Открываем файл, который содержит имена файлов с сервера
+    playlist_filenames = fopen(playlist_file_url, "r");
+    if (playlist_filenames) {
+        DIR *dir;
+        struct dirent *entry;
+        char existing_files[BUF_SIZE][BUF_SIZE];
+        int existing_count = 0;
+
+        // Читаем все файлы из текущей директории плейлиста
+        if ((dir = opendir(playlist_dir)) != NULL) {
+            while ((entry = readdir(dir)) != NULL) {
+                if (entry->d_type == DT_REG) {  // Если это файл
+                    snprintf(existing_files[existing_count], BUF_SIZE, "%s", entry->d_name);
+                    existing_count++;
+                }
+            }
+            closedir(dir);
+        }
+
+        // Проходим по каждому файлу, полученному с сервера
+        while (fgets(file_url, sizeof(file_url), playlist_filenames) != NULL) {
+            // Обрезаем символ новой строки
+            len = strlen(file_url);
+            if (len > 0 && file_url[len - 1] == '\n') {
+                file_url[len - 1] = '\0';
+            }
+
+            // Получаем имя файла из URL
+            sprintf(filename, "%s", get_substring(file_url, 6, "/"));
+
+            // Формируем путь для сохранения файла
+            snprintf(file_path, sizeof(file_path), "%s/%s", playlist_dir, filename);
+
+            // Если файл отсутствует в директории, скачиваем его
+            int found = 0;
+            for (int i = 0; i < existing_count; i++) {
+                if (strcmp(existing_files[i], filename) == 0) {
+                    found = 1;
+                    break;
+                }
+            }
+            if (!found) {
+                printf("Файл %s отсутствует, скачиваем...\n", filename);
+                char download_command[BUF_SIZE];
+                sprintf(download_command, "curl -o '%s' -O '%s'", file_path, file_url);
+                system(download_command);
+            } else {
+                printf("Файл %s уже существует, пропускаем...\n", filename);
+            }
+        }
+
+        // Удаляем файлы, которых больше нет на сервере
+        for (int i = 0; i < existing_count; i++) {
+            int found = 0;
+            fseek(playlist_filenames, 0, SEEK_SET);  // Возвращаемся в начало файла
+            while (fgets(file_url, sizeof(file_url), playlist_filenames) != NULL) {
+                // Обрезаем символ новой строки
+                len = strlen(file_url);
+                if (len > 0 && file_url[len - 1] == '\n') {
+                    file_url[len - 1] = '\0';
+                }
+
+                sprintf(filename, "%s", get_substring(file_url, 6, "/"));
+                if (strcmp(existing_files[i], filename) == 0) {
+                    found = 1;
+                    break;
+                }
+            }
+            if (!found) {
+                snprintf(file_path, sizeof(file_path), "%s/%s", playlist_dir, existing_files[i]);
+                printf("Файл %s отсутствует на сервере, удаляем...\n", existing_files[i]);
+                remove(file_path);
+            }
+        }
+
+        fclose(playlist_filenames);
+    } else {
+        printf("Ошибка открытия файла списка плейлиста.\n");
+    }
+}
+
 
 // Struct to hold command data after parsing
 struct command {
@@ -220,78 +310,44 @@ int load_current_playlist(char *playlist_name, char *type) {
     return 0;  // No playlist to load
 }
 
-void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], pid_t *pid, char output[BUF_SIZE]) {
+void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], pid_t *pid, char output[BUF_SIZE], struct server *main_server) {
     char url[BUF_SIZE], file_path[BUF_SIZE], filename[BUF_SIZE];
     char cwd[BUF_SIZE], playlist_dir[BUF_SIZE], file_url[BUF_SIZE];
-    char download_command[BUF_SIZE], mpv_command[BUF_SIZE], feh_command[BUF_SIZE];
+    char download_command[BUF_SIZE], mpv_command[BUF_SIZE], feh_command[BUF_SIZE], playlist_name[BUF_SIZE];
     FILE *fp;
     
-    // Handle the 'play' command
     if (strcmp(cmd_data->cmd, "play") == 0) {
         sprintf(url, "http://%s:8000/get_playlist_filenames/%s/", server_hostname, cmd_data->playlist);
         if (DEBUG_PRINT) {
             printf("Fetching playlist from URL: %s\n", url);
         }
 
-        // Download playlist files
+        // Скачиваем файл с именами файлов плейлиста
         fp = save_filenames(url, "/tmp/playlist_files.txt");
         if (fp) {
-            FILE *playlist_filenames = fopen("/tmp/playlist_files.txt", "r");
-            if (playlist_filenames) {
-                if (getcwd(cwd, sizeof(cwd)) != NULL) {
-                    printf("Current working dir: %s\n", cwd);
-                }
-                mkdir("playlists", 0777);
-                snprintf(playlist_dir, sizeof(playlist_dir), "%s/playlists/%s", cwd, cmd_data->playlist);
-                mkdir(playlist_dir, 0777);
-
-                while (fgets(file_url, sizeof(file_url), playlist_filenames) != NULL) {
-                        // Убираем перенос строки в конце, если он есть
-                    size_t len = strlen(file_url);
-                    if (len > 0 && file_url[len - 1] == '\n') {
-                        file_url[len - 1] = '\0';
-                    }
-
-                    // Чистим URL файла и получаем имя файла
-                    sprintf(filename, "%s", get_substring(file_url, 6, "/"));
-                    int i = 0;
-                    while (filename[i] != '\0') {
-                        if (filename[i] == '\n') {
-                            filename[i] = '\0';
-                        }
-                        i++;
-                    }
-                    printf("File url:%s", file_url);
-                    printf("Filename:%s", filename);
-                    // Формирование пути для сохранения файла
-                    sprintf(file_path, "%s/%s", playlist_dir, filename);
-                    printf("\nDownloading file to path: %s\n", file_path);
-
-                    // Формирование команды для загрузки файла
-                    sprintf(download_command, "curl -o '%s' -O '%s'", file_path, file_url);
-                    printf("\nExecuting download command: %s\n", download_command);
-
-                    // Выполнение команды
-                    system(download_command);
-                }
-
-
-                fclose(playlist_filenames);
+            if (getcwd(cwd, sizeof(cwd)) != NULL) {
+                printf("Current working dir: %s\n", cwd);
             }
+            mkdir("playlists", 0777);
+            snprintf(playlist_dir, sizeof(playlist_dir), "%s/playlists/%s", cwd, cmd_data->playlist);
+            mkdir(playlist_dir, 0777);
+
+            // Синхронизируем плейлист (добавляем новые файлы и удаляем отсутствующие)
+            sync_playlist_directory(playlist_dir, "/tmp/playlist_files.txt", server_hostname);
+
             remove("/tmp/playlist_files.txt");
 
-            // Depending on the playlist type, we handle video or pictures
+            // Воспроизводим плейлист в зависимости от типа (видео или изображение)
             if (strcmp(cmd_data->type, "video") == 0) {
                 snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
             } else if (strcmp(cmd_data->type, "image") == 0) {
-                printf("PLAYLIST DIR BEFORE FEHING:%s;\n", playlist_dir);
                 snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 4 '%s'", playlist_dir);
-		        // Placeholder for handling pictures (could be something like feh for a slideshow)
-                printf("Handle pictures playlist here. one\n");
             }
-
-            // Fork and execute the player
+            
+            // Форкаем и выполняем команду для воспроизведения
+            
             *pid = fork();
+            printf("\nFORKING PID %i\n", *pid);
             if (*pid == 0) {
                 execl("/bin/bash", "bash", "-c", mpv_command, NULL);
                 exit(0);
@@ -300,6 +356,27 @@ void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], p
             save_current_playlist(cmd_data->playlist, cmd_data->type);
         }
     }
+    else if (strcmp(cmd_data->cmd, "sync") == 0) {
+        snprintf(playlist_dir, sizeof(playlist_dir), "%s/playlists/%s", cwd, cmd_data->playlist);
+        sync_playlist_directory(playlist_dir, "/tmp/playlist_files.txt", server_hostname);
+        // Check if there's a previously played playlist
+        char last_pl[BUF_SIZE] = {0};
+        char last_tp[BUF_SIZE] = {0};
+        if (load_current_playlist(last_pl, last_tp)) {
+            printf("Found previous playlist: %s of type: %s. Resuming playback...\n", last_pl, last_tp);
+
+            // Prepare the command struct and execute the 'play' command to restart the last playlist
+            struct command last_cmd = {0};
+            snprintf(last_cmd.cmd, sizeof(last_cmd.cmd), "play");
+            snprintf(last_cmd.playlist, sizeof(last_cmd.playlist), "%s", last_pl);
+            snprintf(last_cmd.type, sizeof(last_cmd.type), "%s", last_tp);
+
+            execute_command(&last_cmd, server_hostname, &pid, output, main_server);
+        } else {
+            printf("No previous playlist found.\n");
+        }
+    }
+
     // Stop the current process
     else if (strcmp(cmd_data->cmd, "stop") == 0) {
         if (*pid > 0) {
@@ -361,16 +438,49 @@ void execute_command(struct command *cmd_data, char server_hostname[BUF_SIZE], p
     else if (strcmp(cmd_data->cmd, "rotate") == 0) {
         char rotate_command[BUF_SIZE];
         snprintf(rotate_command, sizeof(rotate_command), "xrandr --output %s --rotate %s", output, cmd_data->playlist);
-        
         system(rotate_command);
+        if (*pid > 0) {
+            printf("Restarting process with PID: %d\n", *pid);
+            kill(*pid, SIGTERM); // Stop the current process
+            *pid = 0; // Reset the pid
+        }
+        // Reuse the logic from 'play' command to start a new process
+        snprintf(playlist_dir, sizeof(playlist_dir), "%s/%s/", getcwd(cwd, sizeof(cwd)), cmd_data->playlist);
+
+        if (strcmp(cmd_data->type, "video") == 0) {
+            snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
+        } else if (strcmp(cmd_data->type, "image") == 0) {
+	        snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 1.5 --cycle-once '%s'", playlist_dir);
+            printf("Handle pictures playlist here.\n");
+        }
+
+        // Fork and execute the player again
+        *pid = fork();
+        if (*pid == 0) {
+            execl("/bin/bash", "bash", "-c", mpv_command, NULL);
+            exit(0);
+        }
+        printf("Restarted process with new PID: %d\n", *pid);
+    }
+    else if (strcmp(cmd_data->cmd, "get_playlist") == 0) {
+        FILE *file = fopen("current_playlist.txt", "r");
+        if (file) {
+            printf("getting playlist...");
+            fgets(playlist_name, sizeof(playlist_name), file);
+            //write(main_server->client_desc, playlist_name, sizeof(playlist_name));
+            send(main_server->client_desc, playlist_name, strlen(playlist_name), 0);
+            fclose(file);
+        } else {
+            printf("Error opening current_playlist.txt for reading.\n");
+        }
     }
 }
 
 
-void handle_command(char *message, char server_hostname[BUF_SIZE], pid_t *pid, char output[BUF_SIZE]) {
+void handle_command(char *message, char server_hostname[BUF_SIZE], pid_t *pid, char output[BUF_SIZE], struct server *main_server) {
     struct command cmd_data = {0};
     parse_command(message, &cmd_data);
-    execute_command(&cmd_data, server_hostname, pid, output);
+    execute_command(&cmd_data, server_hostname, pid, output, main_server);
 }
 
 
@@ -381,6 +491,10 @@ int main(int argc, char **args) {
     char last_type[BUF_SIZE] = {0};
     char output[BUF_SIZE] = {0};
 
+    if(strcmp(args[1], "--example") == 0){
+        printf("Example:./server 10.1.9.52 HDMI-1\n");
+        return 0;
+    }
     snprintf(server_hostname, sizeof(server_hostname), "%s", args[1]);
     if (DEBUG_PRINT) {
         printf("Python Server hostname is: %s;\n", server_hostname);
@@ -402,7 +516,7 @@ int main(int argc, char **args) {
         snprintf(last_cmd.playlist, sizeof(last_cmd.playlist), "%s", last_playlist);
         snprintf(last_cmd.type, sizeof(last_cmd.type), "%s", last_type);
 
-        execute_command(&last_cmd, server_hostname, &child_pid, output);
+        execute_command(&last_cmd, server_hostname, &child_pid, output, ms);
     } else {
         printf("No previous playlist found.\n");
     }
@@ -415,11 +529,10 @@ int main(int argc, char **args) {
             read(ms->client_desc, buff, sizeof(buff) - 1);
             printf("%s\n", buff);
 
-            handle_command(buff, server_hostname, &child_pid, output);
+            handle_command(buff, server_hostname, &child_pid, output, ms);
             fflush(stdout);
             close(ms->client_desc);
             printf("Connection closed\n");
         }
     }
 }
-
