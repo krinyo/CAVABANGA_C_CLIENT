@@ -19,6 +19,7 @@
 
 static const char playlist_tmp_path[BUFF_SIZE] = "/tmp/playlist_files.txt";
 static const char playlist_directory_path[BUFF_SIZE] = "playlists";
+static const char current_playlist_filename[BUFF_SIZE] = "current_playlist.txt";
 size_t download_file(void *ptr, size_t size, size_t nmemb, FILE *stream);
 
 static FILE *save_filenames(char url[BUFF_SIZE], const char filepath[BUFF_SIZE]){
@@ -159,12 +160,37 @@ void sync_playlist_directory(const char *playlist_dir, const char *playlist_file
         printf("Ошибка открытия файла списка плейлиста.\n");
     }
 }
+void save_current_playlist(const char *playlist_name, const char *type) {
+    FILE *file = fopen(current_playlist_filename, "w");
+    if (file) {
+        fprintf(file, "%s\n%s\n", playlist_name, type);
+        fclose(file);
+    } else {
+        printf("Error opening current_playlist.txt for writing.\n");
+    }
+}
+
+int load_current_playlist(char *playlist_name, char *type) {
+    FILE *file = fopen(current_playlist_filename, "r");
+    if (file) {
+        if (fgets(playlist_name, BUFF_SIZE, file) != NULL && fgets(type, BUFF_SIZE, file) != NULL) {
+            // Remove newline characters from playlist_name and type
+            playlist_name[strcspn(playlist_name, "\n")] = 0;
+            type[strcspn(type, "\n")] = 0;
+            fclose(file);
+            return 1;  // Success
+        }
+        fclose(file);
+    }
+    return 0;  // No playlist to load
+}
 
 // Struct to hold command data after parsing
 struct command {
     char cmd[BUFF_SIZE];
     char playlist[BUFF_SIZE];
     char type[BUFF_SIZE];  // For future use, to handle different playlist types (e.g., video or pictures)
+    char delay[BUFF_SIZE];
 };
 struct server{
 	int server_socket;
@@ -180,8 +206,8 @@ char handlers[256][BUFF_SIZE] = {
                                         //"sync",/*sync:playlist_name*/
                                         "restart",/*restart*//*stop process, generate command to start, start process*/
                                         //"clear_playlist",
-                                        //"rotate",/*rotate:right*/
-                                        //"get_playlist"/*get_playlist*/
+                                        "rotate",/*rotate:right*/
+                                        "get_playlist"/*get_playlist*/
 };
 
 
@@ -193,12 +219,15 @@ void play_handler(struct command sc, struct server serv,
                     char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE]){
     if(*pid > 0){
         if (DEBUG_PRINT) {
-            printf("Process has already been started. Returning.PID IS:%i;\n", *pid);
+            printf("Process has already been started. PID IS:%i;\n", *pid);
+            printf("Restarting process with PID: %d\n", *pid);
+            kill(*pid, SIGTERM); // Stop the current process
+            *pid = 0; // Reset the pid
         }
-        return;
+        //return;
     }
     if (DEBUG_PRINT) {
-        printf("Playing:%s; Python server hostname:%s; pid=%i; output:%s;\n", sc.playlist, server_hostname, *pid, output);
+        printf("Playing:%s; Python server hostname:%s; pid=%i; output:%s;type:%s;delay:%s;\n", sc.playlist, server_hostname, *pid, output, sc.type, sc.delay);
     }
     /*play:playlist_name:video*/
     char playlist_url[BUFF_SIZE], playlist_dir[BUFF_SIZE], cwd[BUFF_SIZE], mpv_command[BUFF_SIZE];
@@ -223,9 +252,17 @@ void play_handler(struct command sc, struct server serv,
 
         // Воспроизводим плейлист в зависимости от типа (видео или изображение)
         if (strcmp(sc.type, "video") == 0) {
+            
             snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
         } else if (strcmp(sc.type, "image") == 0) {
-            snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 4 '%s'", playlist_dir);
+            if(sc.delay)
+            {
+                snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay '%s' '%s'", sc.delay, playlist_dir);
+            }
+            else{
+                snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 4 '%s'", playlist_dir);
+            }
+            printf("MPV COMMAND IS:%s;\n", mpv_command);
         }
         
         // Форкаем и выполняем команду для воспроизведения
@@ -236,6 +273,7 @@ void play_handler(struct command sc, struct server serv,
             execl("/bin/bash", "bash", "-c", mpv_command, NULL);
             exit(0);
         }
+        save_current_playlist(sc.playlist, sc.type);
     }
 
 }
@@ -276,7 +314,7 @@ void restart_handler(struct command sc, struct server serv,
     if (strcmp(sc.type, "video") == 0) {
         snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
     } else if (strcmp(sc.type, "image") == 0) {
-        snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 1.5 --cycle-once '%s'", playlist_dir);
+        snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 1.5 '%s'", playlist_dir);
         printf("Handle pictures playlist here.\n");
     }
 
@@ -288,12 +326,65 @@ void restart_handler(struct command sc, struct server serv,
     }
     printf("Restarted process with new PID: %d\n", *pid);
 }
+void rotate_handler(struct command sc, struct server serv,
+                    char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE]){
+    char rotate_command[BUFF_SIZE], cwd[BUFF_SIZE], playlist_dir[BUFF_SIZE], mpv_command[BUFF_SIZE] = {0};
+    snprintf(rotate_command, sizeof(rotate_command), "xrandr --output %s --rotate %s", output, sc.playlist);
+    printf("Rotate command is:%s;\n", rotate_command);
+    system(rotate_command);
+
+    load_current_playlist(sc.playlist, sc.type);
+    if (*pid > 0) {
+        printf("Restarting process with PID: %d\n", *pid);
+        kill(*pid, SIGTERM); // Stop the current process
+        *pid = 0; // Reset the pid
+    }
+    snprintf(playlist_dir, sizeof(playlist_dir), "%s/%s/%s/", getcwd(cwd, sizeof(cwd)), playlist_directory_path, sc.playlist);
+    if (strcmp(sc.type, "video") == 0) {
+        snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
+    } else if (strcmp(sc.type, "image") == 0) {
+        if(sc.delay)
+        {
+            snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay '%s' '%s'", sc.delay, playlist_dir);
+        }
+        else{
+            snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 4 '%s'", playlist_dir);
+        }
+        printf("Handle pictures playlist here. MPV COMMAND IS:%s;\n", mpv_command);
+    }
+    
+        // Fork and execute the player again
+    *pid = fork();
+    if (*pid == 0) {
+        execl("/bin/bash", "bash", "-c", mpv_command, NULL);
+        exit(0);
+    }
+    printf("Restarted process with new PID: %d\n", *pid);
+    
+}
+void get_playlist_handler(struct command sc, struct server serv,
+                    char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE]){
+    //get_playlist
+    char playlist_name[BUFF_SIZE]={0};
+    FILE *file = fopen(current_playlist_filename, "r");
+    if (file) {
+        printf("getting playlist...");
+        fgets(playlist_name, sizeof(playlist_name), file);
+        //write(main_server->client_desc, playlist_name, sizeof(playlist_name));
+        send(serv.client_desc, playlist_name, strlen(playlist_name), 0);
+        fclose(file);
+    } else {
+        printf("Error opening current_playlist.txt for reading.\n");
+    }
+}
 /*adding function pointer 3*/
 void (*handler_ptrs[])(struct command, struct server, char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE])={
     play_handler,
     test_handler,
     stop_handler,
-    restart_handler
+    restart_handler,
+    rotate_handler,
+    get_playlist_handler
 };
 
 
@@ -354,11 +445,18 @@ static void parse_command(char c[BUFF_SIZE], struct command *sc) {
         strncpy(sc->type, token, BUFF_SIZE - 1);
         sc->type[BUFF_SIZE - 1] = '\0'; // Ensure null-termination
     }
+
+    // Third token is the type (e.g., "1.5")
+    token = strtok(NULL, ":");
+    if (token != NULL) {
+        strncpy(sc->delay, token, BUFF_SIZE - 1);
+        sc->delay[BUFF_SIZE - 1] = '\0'; // Ensure null-termination
+    }
 }
 void handle_command(char c[BUFF_SIZE], struct command *sc, char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE], struct server ms){
     parse_command(c, sc);
     
-    printf("Cmd:%s;Playlist:%s;Type:%s;\n", sc->cmd, sc->playlist, sc->type);
+    printf("Cmd:%s;Playlist:%s;Type:%s;Delay:%s;\n", sc->cmd, sc->playlist, sc->type, sc->delay);
 
     int found = 0;
     int i;
@@ -382,6 +480,8 @@ int main(int agrc, char **args){
     pid_t main_process_pid = 0;
     char server_hostname[BUFF_SIZE] = {0};
     char output_name[BUFF_SIZE] = {0};
+    char last_playlist[BUFF_SIZE] = {0};
+    char last_type[BUFF_SIZE] = {0};
     snprintf(server_hostname, sizeof(server_hostname), args[1]);
     snprintf(output_name, sizeof(output_name), args[2]);
     
@@ -392,6 +492,20 @@ int main(int agrc, char **args){
         mkdir(playlist_directory_path, 0777);
     }
 
+    // Check if there's a previously played playlist
+    if (load_current_playlist(last_playlist, last_type)) {
+        printf("Found previous playlist: %s of type: %s. Resuming playback...\n", last_playlist, last_type);
+
+        // Prepare the command struct and execute the 'play' command to restart the last playlist
+        struct command last_cmd = {0};
+        snprintf(last_cmd.cmd, sizeof(last_cmd.cmd), "play");
+        snprintf(last_cmd.playlist, sizeof(last_cmd.playlist), "%s", last_playlist);
+        snprintf(last_cmd.type, sizeof(last_cmd.type), "%s", last_type);
+        play_handler(last_cmd, *srv, server_hostname, &main_process_pid, output_name);
+        //handle_command(&last_cmd, server_hostname, &child_pid, output, ms);
+    } else {
+        printf("No previous playlist found.\n");
+    }
     
     while(1){
         if((srv->client_desc = accept(srv->server_socket, NULL, NULL)) != -1){
