@@ -20,6 +20,7 @@
 static const char playlist_tmp_path[BUFF_SIZE] = "/tmp/playlist_files.txt";
 static const char playlist_directory_path[BUFF_SIZE] = "playlists";
 static const char current_playlist_filename[BUFF_SIZE] = "current_playlist.txt";
+static const char delete_all_playlists_command[BUFF_SIZE] = "rm -r playlist/*";
 size_t download_file(void *ptr, size_t size, size_t nmemb, FILE *stream);
 
 static FILE *save_filenames(char url[BUFF_SIZE], const char filepath[BUFF_SIZE]){
@@ -207,7 +208,8 @@ char handlers[256][BUFF_SIZE] = {
                                         "restart",/*restart*//*stop process, generate command to start, start process*/
                                         //"clear_playlist",
                                         "rotate",/*rotate:right*/
-                                        "get_playlist"/*get_playlist*/
+                                        "get_playlist",/*get_playlist*/
+                                        "delete_all_playlists"
 };
 
 
@@ -218,12 +220,10 @@ size_t download_file(void *ptr, size_t size, size_t nmemb, FILE *stream) {
 void play_handler(struct command sc, struct server serv,
                     char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE]){
     if(*pid > 0){
-        if (DEBUG_PRINT) {
-            printf("Process has already been started. PID IS:%i;\n", *pid);
-            printf("Restarting process with PID: %d\n", *pid);
-            kill(*pid, SIGTERM); // Stop the current process
-            *pid = 0; // Reset the pid
-        }
+        printf("Process has already been started. PID IS:%i;\n", *pid);
+        printf("Restarting process with PID: %d\n", *pid);
+        kill(*pid, SIGTERM); // Stop the current process
+        *pid = 0; // Reset the pid
         //return;
     }
     if (DEBUG_PRINT) {
@@ -301,29 +301,46 @@ void restart_handler(struct command sc, struct server serv,
     if (DEBUG_PRINT) {
         printf("Restarting:%s; Python server hostname:%s; pid=%i; output:%s;\n", sc.playlist, server_hostname, *pid, output);
     }
-    char playlist_dir[BUFF_SIZE], mpv_command[BUFF_SIZE], cwd[BUFF_SIZE] = {0};
-
+    char playlist_dir[BUFF_SIZE], mpv_command[BUFF_SIZE], cwd[BUFF_SIZE], last_playlist[BUFF_SIZE], last_type[BUFF_SIZE] = {0};
+    //struct command *last_cmd = malloc(sizeof(struct command));
     if (*pid > 0) {
         printf("Restarting process with PID: %d\n", *pid);
         kill(*pid, SIGTERM); // Stop the current process
         *pid = 0; // Reset the pid
     }
     // Reuse the logic from 'play' command to start a new process
-    snprintf(playlist_dir, sizeof(playlist_dir), "%s/%s/%s/", getcwd(cwd, sizeof(cwd)), playlist_directory_path, sc.playlist);
+    /*snprintf(playlist_dir, sizeof(playlist_dir), "%s/%s/%s/", getcwd(cwd, sizeof(cwd)), playlist_directory_path, sc.playlist);
     sync_playlist_directory(playlist_dir, playlist_tmp_path, server_hostname);
     if (strcmp(sc.type, "video") == 0) {
         snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
     } else if (strcmp(sc.type, "image") == 0) {
         snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 1.5 '%s'", playlist_dir);
         printf("Handle pictures playlist here.\n");
+    }*/
+        // Check if there's a previously played playlist
+    if (load_current_playlist(last_playlist, last_type)) {
+        printf("Found previous playlist: %s of type: %s. Resuming playback...\n", last_playlist, last_type);
+
+        // Prepare the command struct and execute the 'play' command to restart the last playlist
+        struct command last_cmd = {0};
+        snprintf(last_cmd.cmd, sizeof(last_cmd.cmd), "play");
+        snprintf(last_cmd.playlist, sizeof(last_cmd.playlist), "%s", last_playlist);
+        snprintf(last_cmd.type, sizeof(last_cmd.type), "%s", last_type);
+        snprintf(last_cmd.delay, sizeof(last_cmd.delay), "%s", sc.delay);
+
+        printf("last_cmd:cmd:%s;playlist:%s;type:%s;delay%s", last_cmd.cmd, last_cmd.playlist, last_cmd.type, last_cmd.delay);
+        play_handler(last_cmd, serv, server_hostname, pid, output);
+        //handle_command(&last_cmd, server_hostname, &child_pid, output, ms);
+    } else {
+        printf("No previous playlist found.\n");
     }
 
     // Fork and execute the player again
-    *pid = fork();
+    /*pid = fork();
     if (*pid == 0) {
         execl("/bin/bash", "bash", "-c", mpv_command, NULL);
         exit(0);
-    }
+    }*/
     printf("Restarted process with new PID: %d\n", *pid);
 }
 void rotate_handler(struct command sc, struct server serv,
@@ -377,6 +394,11 @@ void get_playlist_handler(struct command sc, struct server serv,
         printf("Error opening current_playlist.txt for reading.\n");
     }
 }
+void delete_all_playlists(struct command sc, struct server serv,
+                    char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE]){
+    ///
+    system(delete_all_playlists_command);
+}
 /*adding function pointer 3*/
 void (*handler_ptrs[])(struct command, struct server, char server_hostname[BUFF_SIZE], pid_t *pid, char output[BUFF_SIZE])={
     play_handler,
@@ -384,7 +406,8 @@ void (*handler_ptrs[])(struct command, struct server, char server_hostname[BUFF_
     stop_handler,
     restart_handler,
     rotate_handler,
-    get_playlist_handler
+    get_playlist_handler,
+    delete_all_playlists
 };
 
 

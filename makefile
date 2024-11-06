@@ -11,7 +11,7 @@ LIBS = -lcurl
 TARGET = server
 
 # Source files
-SRCS = server1609.c
+SRCS = server.c
 
 # Object files (automatically derived from source files)
 OBJS = $(SRCS:.c=.o)
