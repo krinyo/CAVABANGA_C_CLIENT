@@ -1,0 +1,907 @@
+Successfully binded!
+Server is up. Listening on: 0:14333
+Checking and creating playlist directory:
+Found previous playlist: ууу of type: image. Resuming playback...
+Playing:ууу; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/ууу/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/ууу/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл images.jpeg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/ууу';
+
+FORKING PID 255341
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255341; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255341; output:Virtual-1;
+feh ERROR: Can't open X display. It *is* running, yeah?
+Successfully binded!
+Server is up. Listening on: 0:14333
+Checking and creating playlist directory:
+Found previous playlist: ууу of type: image. Resuming playback...
+Playing:ууу; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/ууу/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/ууу/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл images.jpeg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/ууу';
+
+FORKING PID 255719
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255719; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255719; output:Virtual-1;
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:10.1.9.61;Type:;Delay:;
+getting playlist...Accepted connection
+Command:play:nature_playlist:image:3.0
+Cmd:play;Playlist:nature_playlist;Type:image;Delay:3.0;
+Process has already been started. PID IS:255719;
+Restarting process with PID: 255719
+Playing:nature_playlist; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:3.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл %D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '3.0' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/nature_playlist';
+
+FORKING PID 255725
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:nature_playlist;Type:image;Delay:3.0;
+getting playlist...feh ERROR: Can't open X display. It *is* running, yeah?
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:image;Delay:3.0;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255725; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:image;Delay:3.0;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255725; output:Virtual-1;
+feh ERROR: Can't open X display. It *is* running, yeah?
+Successfully binded!
+Server is up. Listening on: 0:14333
+Checking and creating playlist directory:
+Found previous playlist: nature_playlist of type: image. Resuming playback...
+Playing:nature_playlist; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл %D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/nature_playlist';
+
+FORKING PID 255910
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255910; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255910; output:Virtual-1;
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:10.1.9.61;Type:;Delay:;
+getting playlist...Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255910; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255910; output:Virtual-1;
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:10.1.9.61;Type:;Delay:;
+getting playlist...Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:10.1.9.61;Type:;Delay:;
+getting playlist...Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=255910; output:Virtual-1;
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:10.1.9.61;Type:;Delay:;
+getting playlist...Accepted connection
+Command:play:nature_playlist:image:3.0
+Cmd:play;Playlist:nature_playlist;Type:image;Delay:3.0;
+Process has already been started. PID IS:255910;
+Restarting process with PID: 255910
+Playing:nature_playlist; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:3.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл %D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '3.0' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/nature_playlist';
+
+FORKING PID 255919
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:nature_playlist;Type:image;Delay:3.0;
+getting playlist...feh ERROR: Can't open X display. It *is* running, yeah?
+feh ERROR: Can't open X display. It *is* running, yeah?
+Successfully binded!
+Server is up. Listening on: 0:14333
+Checking and creating playlist directory:
+Found previous playlist: nature_playlist of type: image. Resuming playback...
+Playing:nature_playlist; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл %D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/nature_playlist';
+
+FORKING PID 704
+Accepted connection
+Command:play:nature_playlist:image:3.0
+Cmd:play;Playlist:nature_playlist;Type:image;Delay:3.0;
+Process has already been started. PID IS:704;
+Restarting process with PID: 704
+Playing:nature_playlist; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:3.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл %D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '3.0' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/nature_playlist';
+
+FORKING PID 1592
+feh ERROR: Can't open X display. It *is* running, yeah?
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:nature_playlist;Type:image;Delay:3.0;
+getting playlist...Successfully binded!
+Server is up. Listening on: 0:14333
+Checking and creating playlist directory:
+Found previous playlist: nature_playlist of type: image. Resuming playback...
+Playing:nature_playlist; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/nature_playlist/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл %D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/nature_playlist';
+
+FORKING PID 1735
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:10.1.9.61;Type:;Delay:;
+getting playlist...Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:test:10.1.9.61
+Cmd:test;Playlist:10.1.9.61;Type:;Delay:;
+Testing:10.1.9.61; Python server hostname:10.1.9.52; pid=1735; output:Virtual-1;
+Accepted connection
+Command:play:cosmetology:image:8.0
+Cmd:play;Playlist:cosmetology;Type:image;Delay:8.0;
+Process has already been started. PID IS:1735;
+Restarting process with PID: 1735
+Playing:cosmetology; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:8.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/cosmetology/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/cosmetology/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл 0.jpg уже существует, пропускаем...
+Файл 1.jpg уже существует, пропускаем...
+Файл 2.jpg уже существует, пропускаем...
+Файл 3.jpg уже существует, пропускаем...
+Файл 4.jpg уже существует, пропускаем...
+Файл 5.jpg уже существует, пропускаем...
+Файл 6.jpg уже существует, пропускаем...
+Файл 7.jpg уже существует, пропускаем...
+Файл 8.jpg уже существует, пропускаем...
+Файл 9.jpg уже существует, пропускаем...
+Файл 10.jpg уже существует, пропускаем...
+Файл 11.jpg уже существует, пропускаем...
+Файл 12.jpg уже существует, пропускаем...
+Файл 13.jpg уже существует, пропускаем...
+Файл 14.jpg уже существует, пропускаем...
+Файл 15.jpg уже существует, пропускаем...
+Файл 16.jpg уже существует, пропускаем...
+Файл 17.jpg уже существует, пропускаем...
+Файл 18.jpg уже существует, пропускаем...
+Файл 19.jpg уже существует, пропускаем...
+Файл 20.jpg уже существует, пропускаем...
+Файл 21.jpg уже существует, пропускаем...
+Файл 22.jpg уже существует, пропускаем...
+Файл 23.jpg уже существует, пропускаем...
+Файл 24.jpg уже существует, пропускаем...
+Файл 25.jpg уже существует, пропускаем...
+Файл 26.jpg уже существует, пропускаем...
+Файл 27.jpg уже существует, пропускаем...
+Файл 28.jpg уже существует, пропускаем...
+Файл 29.jpg уже существует, пропускаем...
+Файл 30.jpg уже существует, пропускаем...
+Файл 31.jpg уже существует, пропускаем...
+Файл 32.jpg уже существует, пропускаем...
+Файл 33.jpg уже существует, пропускаем...
+Файл 34.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '8.0' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/cosmetology';
+
+FORKING PID 1751
+Accepted connection
+Command:play:cosmetology:image:8.0
+Cmd:play;Playlist:cosmetology;Type:image;Delay:8.0;
+Process has already been started. PID IS:1751;
+Restarting process with PID: 1751
+Playing:cosmetology; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:8.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/cosmetology/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/cosmetology/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл 0.jpg уже существует, пропускаем...
+Файл 1.jpg уже существует, пропускаем...
+Файл 2.jpg уже существует, пропускаем...
+Файл 3.jpg уже существует, пропускаем...
+Файл 4.jpg уже существует, пропускаем...
+Файл 5.jpg уже существует, пропускаем...
+Файл 6.jpg уже существует, пропускаем...
+Файл 7.jpg уже существует, пропускаем...
+Файл 8.jpg уже существует, пропускаем...
+Файл 9.jpg уже существует, пропускаем...
+Файл 10.jpg уже существует, пропускаем...
+Файл 11.jpg уже существует, пропускаем...
+Файл 12.jpg уже существует, пропускаем...
+Файл 13.jpg уже существует, пропускаем...
+Файл 14.jpg уже существует, пропускаем...
+Файл 15.jpg уже существует, пропускаем...
+Файл 16.jpg уже существует, пропускаем...
+Файл 17.jpg уже существует, пропускаем...
+Файл 18.jpg уже существует, пропускаем...
+Файл 19.jpg уже существует, пропускаем...
+Файл 20.jpg уже существует, пропускаем...
+Файл 21.jpg уже существует, пропускаем...
+Файл 22.jpg уже существует, пропускаем...
+Файл 23.jpg уже существует, пропускаем...
+Файл 24.jpg уже существует, пропускаем...
+Файл 25.jpg уже существует, пропускаем...
+Файл 26.jpg уже существует, пропускаем...
+Файл 27.jpg уже существует, пропускаем...
+Файл 28.jpg уже существует, пропускаем...
+Файл 29.jpg уже существует, пропускаем...
+Файл 30.jpg уже существует, пропускаем...
+Файл 31.jpg уже существует, пропускаем...
+Файл 32.jpg уже существует, пропускаем...
+Файл 33.jpg уже существует, пропускаем...
+Файл 34.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '8.0' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/cosmetology';
+
+FORKING PID 1752
+Accepted connection
+Command:stop
+Cmd:stop;Playlist:cosmetology;Type:image;Delay:8.0;
+Stopping:cosmetology; Python server hostname:10.1.9.52; pid=1752; output:Virtual-1;
+Stopping process with PID: 1752
+Accepted connection
+Command:play:cosmetology:image:8.0
+Cmd:play;Playlist:cosmetology;Type:image;Delay:8.0;
+Playing:cosmetology; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:image;delay:8.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/cosmetology/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/cosmetology/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл 0.jpg уже существует, пропускаем...
+Файл 1.jpg уже существует, пропускаем...
+Файл 2.jpg уже существует, пропускаем...
+Файл 3.jpg уже существует, пропускаем...
+Файл 4.jpg уже существует, пропускаем...
+Файл 5.jpg уже существует, пропускаем...
+Файл 6.jpg уже существует, пропускаем...
+Файл 7.jpg уже существует, пропускаем...
+Файл 8.jpg уже существует, пропускаем...
+Файл 9.jpg уже существует, пропускаем...
+Файл 10.jpg уже существует, пропускаем...
+Файл 11.jpg уже существует, пропускаем...
+Файл 12.jpg уже существует, пропускаем...
+Файл 13.jpg уже существует, пропускаем...
+Файл 14.jpg уже существует, пропускаем...
+Файл 15.jpg уже существует, пропускаем...
+Файл 16.jpg уже существует, пропускаем...
+Файл 17.jpg уже существует, пропускаем...
+Файл 18.jpg уже существует, пропускаем...
+Файл 19.jpg уже существует, пропускаем...
+Файл 20.jpg уже существует, пропускаем...
+Файл 21.jpg уже существует, пропускаем...
+Файл 22.jpg уже существует, пропускаем...
+Файл 23.jpg уже существует, пропускаем...
+Файл 24.jpg уже существует, пропускаем...
+Файл 25.jpg уже существует, пропускаем...
+Файл 26.jpg уже существует, пропускаем...
+Файл 27.jpg уже существует, пропускаем...
+Файл 28.jpg уже существует, пропускаем...
+Файл 29.jpg уже существует, пропускаем...
+Файл 30.jpg уже существует, пропускаем...
+Файл 31.jpg уже существует, пропускаем...
+Файл 32.jpg уже существует, пропускаем...
+Файл 33.jpg уже существует, пропускаем...
+Файл 34.jpg уже существует, пропускаем...
+MPV COMMAND IS:feh --fullscreen --slideshow-delay '8.0' '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/cosmetology';
+
+FORKING PID 1754
+Accepted connection
+Command:play:only_lesha:video:3.0
+Cmd:play;Playlist:only_lesha;Type:video;Delay:3.0;
+Process has already been started. PID IS:1754;
+Restarting process with PID: 1754
+Playing:only_lesha; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:video;delay:3.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/only_lesha/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/only_lesha/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл donald-trump-dance.mp4 уже существует, пропускаем...
+Файл lesha.mp4 уже существует, пропускаем...
+
+FORKING PID 1755
+[playlist] Reading plaintext playlist.
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+libEGL warning: DRI2: failed to authenticate
+[vo/gpu/opengl] Suspected software renderer or indirect context.
+[vo/gpu] Can't open TTY for VT control: No such device or address
+[vo/gpu/opengl] Failed to set up VT switcher. Terminal switching will be unavailable.
+[vo/gpu/opengl] No primary DRM device could be picked!
+[vo/gpu/opengl] Failed to find a usable DRM primary node!
+[vo/gpu/opengl] Failed to create KMS.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[vo/gpu/libplacebo] Found no suitable device, giving up.
+[vo/gpu/libplacebo] Failed initializing vulkan device
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+libEGL warning: DRI2: failed to authenticate
+[vo/gpu-next/opengl] Suspected software renderer or indirect context.
+[vo/gpu-next] Can't open TTY for VT control: No such device or address
+[vo/gpu-next/opengl] Failed to set up VT switcher. Terminal switching will be unavailable.
+[vo/gpu-next/opengl] No primary DRM device could be picked!
+[vo/gpu-next/opengl] Failed to find a usable DRM primary node!
+[vo/gpu-next/opengl] Failed to create KMS.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[vo/gpu-next/libplacebo] Found no suitable device, giving up.
+[vo/gpu-next/libplacebo] Failed initializing vulkan device
+Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+[vo/vdpau] Error when calling vdp_device_create_x11: 1
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[vo/xv] No Xvideo support found.
+[vo/sdl] Using opengl
+[vo/sdl] Warning: this legacy VO has bad performance. Consider fixing your graphics drivers, or not forcing the sdl VO.
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+[KV: 00:00:08 / 00:00:08 (100%)
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00781.566394] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00781.566503] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00793.710774] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00793.710869] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[KV: 00:00:08 / 00:00:08 (100%)[W][00805.744597] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00805.744672] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00817.796107] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00817.796188] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00829.823459] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00829.823590] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00841.848521] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00841.848606] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00853.928455] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00853.928542] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00865.945442] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00865.945532] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)Accepted connection
+Command:stop
+Cmd:stop;Playlist:only_lesha;Type:video;Delay:3.0;
+Stopping:only_lesha; Python server hostname:10.1.9.52; pid=1755; output:Virtual-1;
+Stopping process with PID: 1755
+
+
+Exiting... (Quit)
+Accepted connection
+Command:play:only_lesha:video:3.0
+Cmd:play;Playlist:only_lesha;Type:video;Delay:3.0;
+Playing:only_lesha; Python server hostname:10.1.9.52; pid=0; output:Virtual-1;type:video;delay:3.0;
+Fetching playlist from URL: http://10.1.9.52:8000/get_playlist_filenames/only_lesha/
+Formatted URL: http://10.1.9.52:8000/get_playlist_filenames/only_lesha/
+Current working dir: /home/krinyo/projs/CAVABANGA_C_CLIENT
+Файл donald-trump-dance.mp4 уже существует, пропускаем...
+Файл lesha.mp4 уже существует, пропускаем...
+
+FORKING PID 2129
+Accepted connection
+Command:get_playlist
+Cmd:get_playlist;Playlist:only_lesha;Type:video;Delay:3.0;
+getting playlist...[playlist] Reading plaintext playlist.
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+libEGL warning: DRI2: failed to authenticate
+[vo/gpu/opengl] Suspected software renderer or indirect context.
+[vo/gpu] Can't open TTY for VT control: No such device or address
+[vo/gpu/opengl] Failed to set up VT switcher. Terminal switching will be unavailable.
+[vo/gpu/opengl] No primary DRM device could be picked!
+[vo/gpu/opengl] Failed to find a usable DRM primary node!
+[vo/gpu/opengl] Failed to create KMS.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[vo/gpu/libplacebo] Found no suitable device, giving up.
+[vo/gpu/libplacebo] Failed initializing vulkan device
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+libEGL warning: DRI2: failed to authenticate
+[vo/gpu-next/opengl] Suspected software renderer or indirect context.
+[vo/gpu-next] Can't open TTY for VT control: No such device or address
+[vo/gpu-next/opengl] Failed to set up VT switcher. Terminal switching will be unavailable.
+[vo/gpu-next/opengl] No primary DRM device could be picked!
+[vo/gpu-next/opengl] Failed to find a usable DRM primary node!
+[vo/gpu-next/opengl] Failed to create KMS.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[vo/gpu-next/libplacebo] Found no suitable device, giving up.
+[vo/gpu-next/libplacebo] Failed initializing vulkan device
+Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+[vo/vdpau] Error when calling vdp_device_create_x11: 1
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[vo/xv] No Xvideo support found.
+[vo/sdl] Using opengl
+[vo/sdl] Warning: this legacy VO has bad performance. Consider fixing your graphics drivers, or not forcing the sdl VO.
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00886.787739] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00886.787868] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00898.806166] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00898.806249] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+ (+) Video --vid=1 (*) (h264 280x280 30.000fps)
+VO: [sdl] 280x280 yuv420p
+[KV: 00:00:03 / 00:00:03 (99%)[KV: 00:00:00 / 00:00:08 (0%)[KV: 00:00:00 / 00:00:08 (1%)[KV: 00:00:00 / 00:00:08 (2%)[KV: 00:00:00 / 00:00:08 (3%)[KV: 00:00:00 / 00:00:08 (4%)[KV: 00:00:00 / 00:00:08 (5%)[KV: 00:00:00 / 00:00:08 (6%)[KV: 00:00:00 / 00:00:08 (7%)[KV: 00:00:00 / 00:00:08 (8%)[KV: 00:00:00 / 00:00:08 (9%)[KV: 00:00:00 / 00:00:08 (10%)[KV: 00:00:00 / 00:00:08 (11%)[KV: 00:00:00 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (12%)[KV: 00:00:01 / 00:00:08 (13%)[KV: 00:00:01 / 00:00:08 (14%)[KV: 00:00:01 / 00:00:08 (15%)[KV: 00:00:01 / 00:00:08 (16%)[KV: 00:00:01 / 00:00:08 (17%)[KV: 00:00:01 / 00:00:08 (18%)[KV: 00:00:01 / 00:00:08 (19%)[KV: 00:00:01 / 00:00:08 (20%)[KV: 00:00:01 / 00:00:08 (21%)[KV: 00:00:01 / 00:00:08 (22%)[KV: 00:00:01 / 00:00:08 (23%)[KV: 00:00:01 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (24%)[KV: 00:00:02 / 00:00:08 (25%)[KV: 00:00:02 / 00:00:08 (26%)[KV: 00:00:02 / 00:00:08 (27%)[KV: 00:00:02 / 00:00:08 (28%)[KV: 00:00:02 / 00:00:08 (29%)[KV: 00:00:02 / 00:00:08 (30%)[KV: 00:00:02 / 00:00:08 (31%)[KV: 00:00:02 / 00:00:08 (32%)[KV: 00:00:02 / 00:00:08 (33%)[KV: 00:00:02 / 00:00:08 (34%)[KV: 00:00:02 / 00:00:08 (35%)[KV: 00:00:02 / 00:00:08 (36%)[KV: 00:00:03 / 00:00:08 (37%)[KV: 00:00:03 / 00:00:08 (38%)[KV: 00:00:03 / 00:00:08 (39%)[KV: 00:00:03 / 00:00:08 (40%)[KV: 00:00:03 / 00:00:08 (41%)[KV: 00:00:03 / 00:00:08 (42%)[KV: 00:00:03 / 00:00:08 (43%)[KV: 00:00:03 / 00:00:08 (44%)[KV: 00:00:03 / 00:00:08 (45%)[KV: 00:00:03 / 00:00:08 (46%)[KV: 00:00:03 / 00:00:08 (47%)[KV: 00:00:03 / 00:00:08 (48%)[KV: 00:00:03 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (49%)[KV: 00:00:04 / 00:00:08 (50%)[KV: 00:00:04 / 00:00:08 (51%)[KV: 00:00:04 / 00:00:08 (52%)[KV: 00:00:04 / 00:00:08 (53%)[KV: 00:00:04 / 00:00:08 (54%)[KV: 00:00:04 / 00:00:08 (55%)[KV: 00:00:04 / 00:00:08 (56%)[KV: 00:00:04 / 00:00:08 (57%)[KV: 00:00:04 / 00:00:08 (58%)[KV: 00:00:04 / 00:00:08 (59%)[KV: 00:00:04 / 00:00:08 (60%)[KV: 00:00:04 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (61%)[KV: 00:00:05 / 00:00:08 (62%)[KV: 00:00:05 / 00:00:08 (63%)[KV: 00:00:05 / 00:00:08 (64%)[KV: 00:00:05 / 00:00:08 (65%)[KV: 00:00:05 / 00:00:08 (66%)[KV: 00:00:05 / 00:00:08 (67%)[KV: 00:00:05 / 00:00:08 (68%)[KV: 00:00:05 / 00:00:08 (69%)[KV: 00:00:05 / 00:00:08 (70%)[KV: 00:00:05 / 00:00:08 (71%)[KV: 00:00:05 / 00:00:08 (72%)[KV: 00:00:05 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (73%)[KV: 00:00:06 / 00:00:08 (74%)[KV: 00:00:06 / 00:00:08 (75%)[KV: 00:00:06 / 00:00:08 (76%)[KV: 00:00:06 / 00:00:08 (77%)[KV: 00:00:06 / 00:00:08 (78%)[KV: 00:00:06 / 00:00:08 (79%)[KV: 00:00:06 / 00:00:08 (80%)[KV: 00:00:06 / 00:00:08 (81%)[KV: 00:00:06 / 00:00:08 (82%)[KV: 00:00:06 / 00:00:08 (83%)[KV: 00:00:06 / 00:00:08 (84%)[KV: 00:00:06 / 00:00:08 (85%)[KV: 00:00:07 / 00:00:08 (86%)[KV: 00:00:07 / 00:00:08 (87%)[KV: 00:00:07 / 00:00:08 (88%)[KV: 00:00:07 / 00:00:08 (89%)[KV: 00:00:07 / 00:00:08 (90%)[KV: 00:00:07 / 00:00:08 (91%)[KV: 00:00:07 / 00:00:08 (92%)[KV: 00:00:07 / 00:00:08 (93%)[KV: 00:00:07 / 00:00:08 (94%)[KV: 00:00:07 / 00:00:08 (95%)[KV: 00:00:07 / 00:00:08 (96%)[KV: 00:00:07 / 00:00:08 (97%)[KV: 00:00:07 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (98%)[KV: 00:00:08 / 00:00:08 (99%)[KV: 00:00:08 / 00:00:08 (100%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+ (+) Video --vid=1 (*) (h264 1280x720 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+[W][00910.824526] pw.conf      | [          conf.c:  939 try_load_conf()] can't load config client.conf: No such file or directory
+[E][00910.824663] pw.conf      | [          conf.c:  963 pw_conf_load_conf_for_context()] can't load default config client.conf: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/alsa] Playback open error: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[ao/jack] cannot open server
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5180:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5703:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2666:(snd_pcm_open_noupdate) Unknown PCM default
+[ao/sdl] could not open audio: ALSA: Couldn't open audio device: No such file or directory
+[ao] Failed to initialize audio driver 'sdl'
+Could not open/initialize audio device -> no sound.
+Audio: no audio
+VO: [sdl] 1280x720 yuv420p
+[KV: 00:00:08 / 00:00:08 (100%)[KV: 00:00:00 / 00:00:03 (0%)[KV: 00:00:00 / 00:00:03 (1%)[KV: 00:00:00 / 00:00:03 (2%)[KV: 00:00:00 / 00:00:03 (3%)[KV: 00:00:00 / 00:00:03 (4%)[KV: 00:00:00 / 00:00:03 (5%)[KV: 00:00:00 / 00:00:03 (6%)[KV: 00:00:00 / 00:00:03 (7%)[KV: 00:00:00 / 00:00:03 (8%)[KV: 00:00:00 / 00:00:03 (9%)[KV: 00:00:00 / 00:00:03 (10%)[KV: 00:00:00 / 00:00:03 (11%)[KV: 00:00:00 / 00:00:03 (12%)[KV: 00:00:00 / 00:00:03 (13%)[KV: 00:00:00 / 00:00:03 (14%)[KV: 00:00:00 / 00:00:03 (15%)[KV: 00:00:00 / 00:00:03 (16%)[KV: 00:00:00 / 00:00:03 (17%)[KV: 00:00:00 / 00:00:03 (18%)[KV: 00:00:00 / 00:00:03 (19%)[KV: 00:00:00 / 00:00:03 (20%)[KV: 00:00:00 / 00:00:03 (21%)[KV: 00:00:00 / 00:00:03 (22%)[KV: 00:00:00 / 00:00:03 (23%)[KV: 00:00:00 / 00:00:03 (24%)[KV: 00:00:00 / 00:00:03 (25%)[KV: 00:00:00 / 00:00:03 (26%)[KV: 00:00:01 / 00:00:03 (27%)[KV: 00:00:01 / 00:00:03 (28%)[KV: 00:00:01 / 00:00:03 (29%)[KV: 00:00:01 / 00:00:03 (30%)[KV: 00:00:01 / 00:00:03 (31%)[KV: 00:00:01 / 00:00:03 (32%)[KV: 00:00:01 / 00:00:03 (33%)[KV: 00:00:01 / 00:00:03 (34%)[KV: 00:00:01 / 00:00:03 (35%)[KV: 00:00:01 / 00:00:03 (36%)[KV: 00:00:01 / 00:00:03 (37%)[KV: 00:00:01 / 00:00:03 (38%)[KV: 00:00:01 / 00:00:03 (39%)[KV: 00:00:01 / 00:00:03 (40%)[KV: 00:00:01 / 00:00:03 (41%)[KV: 00:00:01 / 00:00:03 (42%)[KV: 00:00:01 / 00:00:03 (43%)[KV: 00:00:01 / 00:00:03 (44%)[KV: 00:00:01 / 00:00:03 (45%)[KV: 00:00:01 / 00:00:03 (46%)[KV: 00:00:01 / 00:00:03 (47%)[KV: 00:00:01 / 00:00:03 (48%)[KV: 00:00:01 / 00:00:03 (49%)[KV: 00:00:01 / 00:00:03 (50%)[KV: 00:00:01 / 00:00:03 (51%)[KV: 00:00:01 / 00:00:03 (52%)[KV: 00:00:01 / 00:00:03 (53%)[KV: 00:00:02 / 00:00:03 (54%)[KV: 00:00:02 / 00:00:03 (55%)[KV: 00:00:02 / 00:00:03 (56%)[KV: 00:00:02 / 00:00:03 (57%)[KV: 00:00:02 / 00:00:03 (58%)[KV: 00:00:02 / 00:00:03 (59%)[KV: 00:00:02 / 00:00:03 (60%)[KV: 00:00:02 / 00:00:03 (61%)[KV: 00:00:02 / 00:00:03 (62%)[KV: 00:00:02 / 00:00:03 (63%)[KV: 00:00:02 / 00:00:03 (64%)[KV: 00:00:02 / 00:00:03 (65%)[KV: 00:00:02 / 00:00:03 (66%)[KV: 00:00:02 / 00:00:03 (67%)[KV: 00:00:02 / 00:00:03 (68%)[KV: 00:00:02 / 00:00:03 (69%)[KV: 00:00:02 / 00:00:03 (70%)[KV: 00:00:02 / 00:00:03 (71%)[KV: 00:00:02 / 00:00:03 (72%)[KV: 00:00:02 / 00:00:03 (73%)[KV: 00:00:02 / 00:00:03 (74%)[KV: 00:00:02 / 00:00:03 (75%)[KV: 00:00:02 / 00:00:03 (76%)[KV: 00:00:02 / 00:00:03 (77%)[KV: 00:00:02 / 00:00:03 (78%)[KV: 00:00:02 / 00:00:03 (79%)[KV: 00:00:02 / 00:00:03 (80%)[KV: 00:00:03 / 00:00:03 (81%)[KV: 00:00:03 / 00:00:03 (82%)[KV: 00:00:03 / 00:00:03 (83%)[KV: 00:00:03 / 00:00:03 (84%)[KV: 00:00:03 / 00:00:03 (85%)[KV: 00:00:03 / 00:00:03 (86%)[KV: 00:00:03 / 00:00:03 (87%)[KV: 00:00:03 / 00:00:03 (88%)[KV: 00:00:03 / 00:00:03 (89%)[KV: 00:00:03 / 00:00:03 (90%)[KV: 00:00:03 / 00:00:03 (91%)[KV: 00:00:03 / 00:00:03 (92%)[KV: 00:00:03 / 00:00:03 (93%)[KV: 00:00:03 / 00:00:03 (94%)[KV: 00:00:03 / 00:00:03 (95%)[KV: 00:00:03 / 00:00:03 (96%)[KV: 00:00:03 / 00:00:03 (97%)[KV: 00:00:03 / 00:00:03 (98%)[KV: 00:00:03 / 00:00:03 (99%)
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4
+[file] Cannot open file '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4': No such file or directory
+Failed to open /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/donald-trump-dance.mp4.
+
+Playing: /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4
+[file] Cannot open file '/home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4': No such file or directory
+Failed to open /home/krinyo/projs/CAVABANGA_C_CLIENT/playlists/only_lesha/lesha.mp4.
+
+Exiting... (Some errors happened)
