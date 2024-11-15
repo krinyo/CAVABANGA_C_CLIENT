@@ -514,7 +514,7 @@ int main(int agrc, char **args){
     if(!opendir(playlist_directory_path)){
         mkdir(playlist_directory_path, 0777);
     }
-
+    sleep(10);
     // Check if there's a previously played playlist
     if (load_current_playlist(last_playlist, last_type)) {
         printf("Found previous playlist: %s of type: %s. Resuming playback...\n", last_playlist, last_type);

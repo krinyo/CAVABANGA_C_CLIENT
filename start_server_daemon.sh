@@ -24,7 +24,8 @@ USER="$(whoami)"  # Use the current user
 sudo bash -c "cat > $SERVICE_FILE" << EOL
 [Unit]
 Description=Custom Server Daemon for $SERVER_ADDRESS $OUTPUT_DEVICE
-After=network.target
+After=graphical.target
+Requires=graphical.target
 
 [Service]
 Type=simple
@@ -37,8 +38,9 @@ StandardOutput=append:$LOG_FILE
 StandardError=append:$LOG_FILE
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
 EOL
+
 
 # Reload systemd, enable, and start the service
 sudo systemctl daemon-reload
