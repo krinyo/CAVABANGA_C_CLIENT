@@ -521,10 +521,34 @@ int main(int agrc, char **args){
 
         // Prepare the command struct and execute the 'play' command to restart the last playlist
         struct command last_cmd = {0};
+        char mpv_command[BUFF_SIZE] = {0};
+        char playlist_dir[BUFF_SIZE] = {0};
+        char cwd[BUFF_SIZE] = {0};
+        getcwd(cwd, sizeof(cwd));
         snprintf(last_cmd.cmd, sizeof(last_cmd.cmd), "play");
         snprintf(last_cmd.playlist, sizeof(last_cmd.playlist), "%s", last_playlist);
         snprintf(last_cmd.type, sizeof(last_cmd.type), "%s", last_type);
-        play_handler(last_cmd, *srv, server_hostname, &main_process_pid, output_name);
+
+        //play_handler(last_cmd, *srv, server_hostname, &main_process_pid, output_name);
+        snprintf(playlist_dir, sizeof(playlist_dir), "%s/%s/%s", cwd, playlist_directory_path, last_cmd.playlist);
+        if (strcmp(last_cmd.type, "video") == 0) {
+            snprintf(mpv_command, sizeof(mpv_command), "mpv --fs --playlist=<(find '%s' -type f -name '*') --loop-playlist", playlist_dir);
+        } else if (strcmp(last_cmd.type, "image") == 0) {
+            if(last_cmd.delay)
+            {
+                snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay '%s' '%s'", last_cmd.delay, playlist_dir);
+            }
+            else{
+                snprintf(mpv_command, sizeof(mpv_command), "feh --fullscreen --slideshow-delay 4 '%s'", playlist_dir);
+            }
+            printf("MPV COMMAND IS:%s;\n", mpv_command);
+        }
+        main_process_pid = fork();
+        printf("\nFORKING PID %i\n", main_process_pid);
+        if (main_process_pid == 0) {
+            execl("/bin/bash", "bash", "-c", mpv_command, NULL);
+            exit(0);
+        }
         //handle_command(&last_cmd, server_hostname, &child_pid, output, ms);
     } else {
         printf("No previous playlist found.\n");
