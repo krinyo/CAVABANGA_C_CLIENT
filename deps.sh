@@ -1,2 +1,2 @@
 apt update && apt upgrade
-apt install feh mpv libcurl4-openssl-dev
+apt install feh mpv libcurl4-openssl-dev unclutter cronutils
